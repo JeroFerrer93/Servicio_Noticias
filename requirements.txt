@@ -1,6 +1,6 @@
 streamlit
-requests
 beautifulsoup4
+requests
 python-docx
 sumy
 nltk
