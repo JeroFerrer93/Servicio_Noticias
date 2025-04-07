@@ -180,6 +180,7 @@ def generar_word():
     nombre_archivo = f"Resumen_Noticias_{fecha_actual}.docx"
     doc.save(nombre_archivo)
     print(f"✅ Documento Word generado: {nombre_archivo}")
+    return nombre_archivo    
 
 # 🚀 Ejecutar
 if __name__ == "__main__":
